@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+font-family: 'Niramit', sans-serif;
+background-image: url("drum.jpeg");
+background-size: cover;
+}
+.keys{
+  position: absolute;
+  top:20%;
+  width: 100%;
+}
+.keys .key{
+  text-align: center;
+  background-image:
+  font-size: 30px;
+  border:2px solid #232725;
+  box-shadow: 2px 2px 20px rgba(38,39,37,0.7);
+  display: inline-block;
+  width: 7.5%;
+  transition: 0.1s linear;
+  padding:10px 10px;
+  margin:10px 10px;
+}
+.clicked{
+  transform: scale(1.1);
+  box-shadow: 2px 2px 20px rgba(246,246,24,0.7);
+}
+.keys .key p{
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+.keys .key span{
+  font-size: 20px;
+    color: white;
+}
